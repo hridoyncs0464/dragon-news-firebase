@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import NewsCard from "../NewsCard";
+  
+
+
 
 const CatagoryNews = () => {
   const { id } = useParams();
